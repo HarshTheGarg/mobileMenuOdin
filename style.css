@@ -1,8 +1,6 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(230, 253, 233);
-    height: 5000px;
 }
 
 header {
@@ -18,11 +16,11 @@ header {
 }
 
 .menu {
-    padding: 50px 0px;
+    padding: 10px 0px;
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 1000px;
     overflow: hidden;
     background-color: rgb(124, 223, 137);
     max-width: 0;
@@ -33,4 +31,9 @@ header {
 .visible {
     max-width: 500px;
     padding: 50px 150px;
+}
+
+.container {
+    background-color: rgb(230, 253, 233);
+    height: 1100px;
 }
