@@ -32,6 +32,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
+    
     height: 1000px;
     overflow: hidden;
     background-color: rgb(124, 223, 137);
@@ -88,8 +89,8 @@ header {
     padding: 0px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 600ms ease-in 200ms,
-    padding 600ms ease-in 200ms;
+    transition: max-height 400ms ease-in-out 100ms,
+    padding 400ms ease-in-out 100ms;
 }
 
 .micVis {
