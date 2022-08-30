@@ -22,6 +22,10 @@ header {
     cursor: pointer;
 }
 
+.menuButton::selection {
+    background-color: rgb(124, 223, 137);
+}
+
 .menu {
     padding: 10px 0px;
     max-width: 0;
@@ -32,7 +36,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    
+
     height: 1000px;
     overflow: hidden;
     background-color: rgb(124, 223, 137);
@@ -83,6 +87,10 @@ header {
     cursor: pointer;
     display: inline;
     width: 100%;
+}
+
+.mh::selection {
+    background-color: rgb(124, 223, 137);
 }
 
 .mic {
