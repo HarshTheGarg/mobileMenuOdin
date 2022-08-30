@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
 body {
     padding: 0;
     margin: 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
 }
 
 header {
@@ -9,32 +13,93 @@ header {
 }
 
 .menuButton {
-    padding: 5px 10px;
+    padding: 10px;
     background-color: rgb(124, 223, 137);
     border-radius: 5px;
     display: inline-block;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+
+    cursor: pointer;
 }
 
 .menu {
     padding: 10px 0px;
+    max-width: 0;
+    /* max-width: 250px;
+    padding: 30px 40px 0 20px;
+    border: 2px solid black; */
+
     position: absolute;
     top: 0;
     left: 0;
     height: 1000px;
     overflow: hidden;
     background-color: rgb(124, 223, 137);
-    max-width: 0;
     transition: max-width 400ms ease 200ms,
     padding 900ms ease-out 100ms;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .visible {
-    max-width: 500px;
-    padding: 30px 130px;
+    max-width: 250px;
+    padding: 30px 40px 0 20px;
 }
 
 .container {
     background-color: rgb(230, 253, 233);
     height: 1100px;
 }
+
+.menuHeading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-bottom: 40px;
+}
+
+/* .menuContent {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid red;
+
+} */
+
+.mc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    border-bottom: 2px solid rgb(81, 158, 91);
+    padding: 20px 200px 10px 0;
+}
+
+.mh {
+    font-weight: 400;
+    cursor: pointer;
+    display: inline;
+    width: 100%;
+}
+
+.mic {
+    padding: 0px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 600ms ease-in 200ms,
+    padding 600ms ease-in 200ms;
+}
+
+.micVis {
+    max-height: 400px;
+    padding: 10px;
+}
+
+.mi {
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+
