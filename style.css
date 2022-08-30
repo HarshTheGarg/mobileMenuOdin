@@ -5,14 +5,15 @@ body {
 
 header {
     background-color: rgb(161, 251, 173);
-    padding: 50px;
+    padding: 25px;
 }
 
 .menuButton {
-    padding: 10px 20px;
+    padding: 5px 10px;
     background-color: rgb(124, 223, 137);
     border-radius: 5px;
     display: inline-block;
+    font-size: 0.7rem;
 }
 
 .menu {
@@ -30,7 +31,7 @@ header {
 
 .visible {
     max-width: 500px;
-    padding: 50px 150px;
+    padding: 30px 130px;
 }
 
 .container {
